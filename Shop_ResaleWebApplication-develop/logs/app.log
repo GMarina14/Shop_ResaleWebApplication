@@ -1,0 +1,117 @@
+2023-12-03 16:22:49.189 [main] INFO  r.s.homework.HomeworkApplication - Starting HomeworkApplication using Java 20.0.1 on LAPTOP-T0PI7F2H with PID 16660 (C:\Users\Huawei\IdeaProjects\Shop\example-for-graduate-work-main\target\classes started by Huawei in C:\Users\Huawei\IdeaProjects\Shop)
+2023-12-03 16:22:49.197 [main] INFO  r.s.homework.HomeworkApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-03 16:22:50.219 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-03 16:22:50.314 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 82 ms. Found 4 JPA repository interfaces.
+2023-12-03 16:22:51.009 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-12-03 16:22:51.018 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-03 16:22:51.020 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-12-03 16:22:51.020 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-12-03 16:22:51.147 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-12-03 16:22:51.147 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1895 ms
+2023-12-03 16:22:51.347 [main] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 8.5.13 by Redgate
+2023-12-03 16:22:51.347 [main] INFO  o.f.c.i.license.VersionPrinter - See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+2023-12-03 16:22:51.347 [main] INFO  o.f.c.i.license.VersionPrinter - 
+2023-12-03 16:22:51.681 [main] INFO  o.f.c.i.d.base.BaseDatabaseType - Database: jdbc:postgresql://localhost:5432/shop.db (PostgreSQL 13.11)
+2023-12-03 16:22:51.737 [main] INFO  o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.020s)
+2023-12-03 16:22:51.737 [main] WARN  o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
+2023-12-03 16:22:51.746 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2023-12-03 16:22:51.748 [main] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2023-12-03 16:22:51.899 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-03 16:22:52.010 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-12-03 16:22:52.338 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-03 16:22:52.529 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-12-03 16:22:52.724 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-12-03 16:22:52.768 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-12-03 16:22:53.724 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-03 16:22:53.736 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-03 16:22:54.673 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-03 16:22:55.364 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5687ade6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7621c3f7, org.springframework.security.web.context.SecurityContextPersistenceFilter@74070994, org.springframework.security.web.header.HeaderWriterFilter@613ba54e, org.springframework.web.filter.CorsFilter@519a81dd, org.springframework.security.web.authentication.logout.LogoutFilter@3e3a07ab, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1f57fa23, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7307ae6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@762db992, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5608e254, org.springframework.security.web.session.SessionManagementFilter@563bd6a4, org.springframework.security.web.access.ExceptionTranslationFilter@1028a747, org.springframework.security.web.access.intercept.AuthorizationFilter@126e2710]
+2023-12-03 16:22:55.666 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-03 16:22:55.690 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-03 16:22:55.705 [main] INFO  r.s.homework.HomeworkApplication - Started HomeworkApplication in 7.137 seconds (JVM running for 8.219)
+2023-12-03 16:24:03.839 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-03 16:24:03.841 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-12-03 16:24:03.848 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-12-03 16:24:12.644 [main] INFO  r.s.homework.HomeworkApplication - Starting HomeworkApplication using Java 20.0.1 on LAPTOP-T0PI7F2H with PID 19600 (C:\Users\Huawei\IdeaProjects\Shop\example-for-graduate-work-main\target\classes started by Huawei in C:\Users\Huawei\IdeaProjects\Shop)
+2023-12-03 16:24:12.647 [main] INFO  r.s.homework.HomeworkApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-03 16:24:13.498 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-03 16:24:13.587 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80 ms. Found 4 JPA repository interfaces.
+2023-12-03 16:24:14.288 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-12-03 16:24:14.300 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-03 16:24:14.302 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-12-03 16:24:14.303 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-12-03 16:24:14.450 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-12-03 16:24:14.451 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1750 ms
+2023-12-03 16:24:14.676 [main] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 8.5.13 by Redgate
+2023-12-03 16:24:14.676 [main] INFO  o.f.c.i.license.VersionPrinter - See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+2023-12-03 16:24:14.676 [main] INFO  o.f.c.i.license.VersionPrinter - 
+2023-12-03 16:24:14.889 [main] INFO  o.f.c.i.d.base.BaseDatabaseType - Database: jdbc:postgresql://localhost:5432/shop.db (PostgreSQL 13.11)
+2023-12-03 16:24:14.932 [main] INFO  o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.015s)
+2023-12-03 16:24:14.932 [main] WARN  o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
+2023-12-03 16:24:14.941 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2023-12-03 16:24:14.943 [main] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2023-12-03 16:24:15.083 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-03 16:24:15.171 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-12-03 16:24:15.557 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-03 16:24:15.700 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-12-03 16:24:15.773 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-12-03 16:24:15.811 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-12-03 16:24:16.966 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-03 16:24:16.977 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-03 16:24:17.860 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-03 16:24:18.539 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1a22325d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c5cb013, org.springframework.security.web.context.SecurityContextPersistenceFilter@33997e07, org.springframework.security.web.header.HeaderWriterFilter@1f7949dc, org.springframework.web.filter.CorsFilter@5f69462f, org.springframework.security.web.authentication.logout.LogoutFilter@25762f04, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@34525143, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@eda7dd3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1028a747, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@432b883, org.springframework.security.web.session.SessionManagementFilter@69e736bf, org.springframework.security.web.access.ExceptionTranslationFilter@54c17a2b, org.springframework.security.web.access.intercept.AuthorizationFilter@5b1cedfd]
+2023-12-03 16:24:18.856 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-03 16:24:18.878 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-03 16:24:18.889 [main] INFO  r.s.homework.HomeworkApplication - Started HomeworkApplication in 7.295 seconds (JVM running for 8.791)
+2023-12-03 16:29:26.905 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-03 16:29:26.909 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-12-03 16:29:26.980 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 71 ms
+2023-12-03 16:34:59.749 [http-nio-8080-exec-1] INFO  r.s.h.service.impl.AuthServiceImpl - AuthServiceImpl:-> register
+2023-12-03 16:35:54.686 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-03 16:35:54.692 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-12-03 16:35:54.711 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-12-03 16:36:50.784 [main] INFO  r.s.homework.HomeworkApplication - Starting HomeworkApplication using Java 20.0.1 on LAPTOP-T0PI7F2H with PID 8328 (C:\Users\Huawei\IdeaProjects\Shop\example-for-graduate-work-main\target\classes started by Huawei in C:\Users\Huawei\IdeaProjects\Shop)
+2023-12-03 16:36:50.787 [main] INFO  r.s.homework.HomeworkApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-03 16:36:52.077 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-03 16:36:52.270 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 170 ms. Found 4 JPA repository interfaces.
+2023-12-03 16:36:53.069 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-12-03 16:36:53.084 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-03 16:36:53.086 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-12-03 16:36:53.086 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-12-03 16:36:53.212 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-12-03 16:36:53.213 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2355 ms
+2023-12-03 16:36:53.417 [main] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 8.5.13 by Redgate
+2023-12-03 16:36:53.417 [main] INFO  o.f.c.i.license.VersionPrinter - See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+2023-12-03 16:36:53.417 [main] INFO  o.f.c.i.license.VersionPrinter - 
+2023-12-03 16:36:53.671 [main] INFO  o.f.c.i.d.base.BaseDatabaseType - Database: jdbc:postgresql://localhost:5432/shop.db (PostgreSQL 13.11)
+2023-12-03 16:36:53.701 [main] INFO  o.f.core.internal.command.DbValidate - Successfully validated 0 migrations (execution time 00:00.009s)
+2023-12-03 16:36:53.701 [main] WARN  o.f.core.internal.command.DbValidate - No migrations found. Are your locations set up correctly?
+2023-12-03 16:36:53.718 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "public"."flyway_schema_history" ...
+2023-12-03 16:36:53.791 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": << Empty Schema >>
+2023-12-03 16:36:53.793 [main] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2023-12-03 16:36:53.938 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-03 16:36:54.045 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-12-03 16:36:54.339 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-03 16:36:54.482 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-12-03 16:36:54.554 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-12-03 16:36:54.599 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-12-03 16:36:55.574 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+2023-12-03 16:36:55.574 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - ограничение "uk_r43af9ap4edm43mmtq01oddj6" в таблице "users" не существует, пропускается
+2023-12-03 16:36:55.596 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-03 16:36:55.608 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-03 16:36:56.538 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-03 16:36:57.263 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@13cc3984, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55465bfc, org.springframework.security.web.context.SecurityContextPersistenceFilter@432b883, org.springframework.security.web.header.HeaderWriterFilter@267e0ca0, org.springframework.web.filter.CorsFilter@5625ba2, org.springframework.security.web.authentication.logout.LogoutFilter@c7b100b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2c6d442d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@560c3758, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24fb8317, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47bbf44d, org.springframework.security.web.session.SessionManagementFilter@1a22325d, org.springframework.security.web.access.ExceptionTranslationFilter@4718d320, org.springframework.security.web.access.intercept.AuthorizationFilter@272485a6]
+2023-12-03 16:36:57.633 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-12-03 16:36:57.658 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-03 16:36:57.672 [main] INFO  r.s.homework.HomeworkApplication - Started HomeworkApplication in 7.483 seconds (JVM running for 9.915)
+2023-12-03 16:37:07.656 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-03 16:37:07.657 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-12-03 16:37:07.659 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-12-03 16:37:44.171 [http-nio-8080-exec-4] INFO  r.s.h.service.impl.AuthServiceImpl - AuthServiceImpl:-> register
+2023-12-03 16:40:25.544 [http-nio-8080-exec-1] INFO  r.s.h.service.impl.ImageServiceImpl - ImageServiceImpl : ->saveToDb
+2023-12-03 16:40:25.556 [http-nio-8080-exec-1] INFO  r.s.h.service.impl.ImageServiceImpl - ImageServiceImpl : <- saveToDo
+2023-12-03 16:42:30.003 [http-nio-8080-exec-7] INFO  r.s.h.service.impl.ImageServiceImpl - ImageServiceImpl : ->getById
+2023-12-03 16:42:30.014 [http-nio-8080-exec-7] INFO  r.s.h.service.impl.ImageServiceImpl - ImageServiceImpl : <- getById
+2023-12-03 16:51:20.346 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-03 16:51:20.381 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-12-03 16:51:20.402 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
